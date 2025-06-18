@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yummy Choice | Brampton's Favorite Street Food</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
   <!-- Navigation Bar -->
-<nav class="navbar">
-  <div class="logo-container">
-    <a href="#" class="logo-link">
-      <img src="images/yummy-logo.png" alt="Yummy Choice Logo" class="logo">
-    </a>
-  </div>
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="#" class="logo-link">
+        <img src="images/yummy-logo.png" alt="Yummy Choice Logo" class="logo">
+        <h2>Yummy Choice</h2>
+      </a>
+    </div>
 
-  <div class="nav-links">
-    <a href="#menu">Menu</a>
-    <a href="#about">About</a>
-    <a href="#catering">Catering</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+    <div class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#tiffinbox">Tiffin Service</a>
+      <a href="#about">About</a>
+      <a href="#catering">Catering</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
 
   <!-- Hero Section -->
   <header class="info-hero">
     <img src="images/YummyChoice_Poster.png" alt="Yummy Choice Poster" class="hero-img" />
     <div class="info-overlay">
-       <img src="images/yummy-logo.png" alt="Yummy Choice Logo" class="hero-logo" />
+      <img src="images/yummy-logo.png" alt="Yummy Choice Logo" class="hero-logo" />
       <h1>Yummy Choice</h1>
       <p>Discover Brampton’s beloved street food experience — where flavor meets tradition.</p>
     </div>
@@ -55,12 +60,16 @@
         <h3>Chaat Papdi</h3>
       </div>
       <div class="item">
-        <img src="images/momos.jpg" alt="Momos" />
+        <img src="images/momos.png" alt="Momos" />
         <h3>Momos</h3>
       </div>
       <div class="item">
-        <img src="images/soup.jpg" alt="Soup" />
-        <h3>Soup</h3>
+        <img src="images/soup.png" alt="Soup" />
+        <h3>Veg Soup</h3>
+      </div>
+      <div class="item">
+        <img src="images/non-veg_soup.png" alt="Soup" />
+        <h3>Non-Veg Soup</h3>
       </div>
       <div class="item">
         <img src="images/sandwich.jpg" alt="Grilled Sandwich" />
@@ -95,33 +104,99 @@
         <h3>Ice Cream</h3>
       </div>
       <div class="item">
-        <img src="images/ice-cream.jpg" alt="Ice Cream" />
+        <img src="images/MuttonCurryRice.jpg" alt="Ice Cream" />
         <h3>Mutton curry with Rice</h3>
       </div>
       <div class="item">
-        <img src="images/ice-cream.jpg" alt="Ice Cream" />
+        <img src="images/ChickenCurryRice.jpg" alt="Ice Cream" />
         <h3>Chicken curry with Rice</h3>
       </div>
       <div class="item">
-        <img src="images/ice-cream.jpg" alt="Ice Cream" />
+        <img src="images/NoodleBurger.webp" alt="Ice Cream" />
         <h3>Veg Noodle Burger </h3>
       </div>
+      <div class="item">
+        <img src="images/ChickenBurger.jpg" alt="Ice Cream" />
+        <h3>Chicken Burger </h3>
+      </div>
     </div>
+  </section>
+
+  <!-- Tiffin Box Section -->
+  <section id="tiffinbox">
+    <h2>Daily Tiffin Service</h2>
+    <p>Everyday different dishes — no repeat items! Fresh, homemade-style meals available 20–24 days a month.</p>
+    <p><strong>Starting at just $120/month</strong></p>
+
+    <div class="tiffin-cards">
+      <!-- Small Tiffin Card -->
+      <div class="card">
+        <h3>Small Tiffin</h3>
+        <ul>
+          <li>1 Dal</li>
+          <li>1 Sabzi</li>
+          <li>6 Rotis</li>
+          <li>Salad & Raita</li>
+        </ul>
+        <p class="price">$160/month</p>
+        <p class="price-sub">$180/6 days</p>
+      </div>
+
+      <!-- Medium Tiffin Card -->
+      <div class="card">
+        <h3>Medium Tiffin</h3>
+        <ul>
+          <li>1 Dal</li>
+          <li>1 Sabzi</li>
+          <li>8 Rotis</li>
+          <li>Salad & Raita</li>
+        </ul>
+        <p class="price">$200/month</p>
+        <p class="price-sub">$220/6 days</p>
+      </div>
+
+      <!-- Large Tiffin Card -->
+      <div class="card">
+        <h3>Large Tiffin</h3>
+        <ul>
+          <li>1 Dal</li>
+          <li>2 Sabzis</li>
+          <li>12 Rotis</li>
+          <li>Salad & Raita</li>
+        </ul>
+        <p class="price">$240/month</p>
+        <p class="price-sub">$260/6 days</p>
+      </div>
+    </div>
+
+
+
+    <div class="specials-card">
+      <h3>🎉 Saturday Specials</h3>
+      <p>Aloo Paratha / Gobi Paratha / Methi Paratha + Sweet</p>
+    </div>
+
+    <p>📞 Book your tiffin now: <a href="tel:6475156804">647-515-6804</a></p>
   </section>
 
   <!-- About Us Section -->
   <section id="about">
     <h2>About Us</h2>
-    <p>Yummy Choice was founded by Sukhdev Singh with a vision to bring vibrant, authentic Indian street food to Brampton. Every recipe is crafted with love and tradition, using time-tested techniques and the freshest ingredients.</p>
-    <p>We believe in clean cooking, honest flavors, and heartfelt hospitality. Our kitchen is maintained with the highest standards of hygiene, and our staff is trained to deliver great service with a smile.</p>
-    <p>Whether you're stopping by for a quick snack or hiring us to cater your special occasion, you'll taste the passion and dedication in every bite.</p>
+    <p>Yummy Choice was founded by Sukhdev Singh with a vision to bring vibrant, authentic Indian street food to
+      Brampton. Every recipe is crafted with love and tradition, using time-tested techniques and the freshest
+      ingredients.</p>
+    <p>We believe in clean cooking, honest flavors, and heartfelt hospitality. Our kitchen is maintained with the
+      highest standards of hygiene, and our staff is trained to deliver great service with a smile.</p>
+    <p>Whether you're stopping by for a quick snack or hiring us to cater your special occasion, you'll taste the
+      passion and dedication in every bite.</p>
     <p>Trust us once, and we promise you'll be back again and again.</p>
   </section>
 
   <!-- Catering Section -->
   <section id="catering">
     <h2>Catering Services</h2>
-    <p>Make your next event deliciously memorable with our professional catering services. Whether it's a wedding, corporate lunch, birthday party, or festival — we’ve got the flavors your guests will love.</p>
+    <p>Make your next event deliciously memorable with our professional catering services. Whether it's a wedding,
+      corporate lunch, birthday party, or festival — we’ve got the flavors your guests will love.</p>
     <p>Custom menu options available upon request.</p>
     <p>📞 Call now: <a href="tel:6475156804">647-515-6804</a></p>
   </section>
@@ -130,6 +205,7 @@
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Owner: Sukhdev Singh</p>
+    <p>Available: 10:00 AM - 11:00 PM</p>
     <p>Phone: <a href="tel:6475156804">647-515-6804</a></p>
     <p>Email: <a href="mailto:bramptonfood1994@gmail.com">bramptonfood1994@gmail.com</a></p>
     <p>Location: 2361 StClair Ave West, Toronto</p>
@@ -143,4 +219,5 @@
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
